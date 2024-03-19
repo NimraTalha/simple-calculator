@@ -1,9 +1,11 @@
 {
-  "name": "simple---calculator",
-  "version": "1.0.0",
-  "description": "",
+  "name": "m12-simple-calculator",
+  "version": "1.0.2",
   "main": "index.js",
   "type": "module",
+  "bin": {
+    "m12-simple-calculator": "index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -13,6 +15,9 @@
     "inquirer": "^9.2.16"
   },
   "devDependencies": {
-    "@types/inquirer": "^9.0.7"
-  }
+    "@types/inquirer": "^9.0.7",
+    "typescript": "^5.4.2"
+  },
+  "keywords": [],
+  "description": ""
 }
